@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+        <link href="style.css" rel="stylesheet" />
+        <title>Introducción a la programación para el Diseño de interacción &#129302;</title>
+    </head>
+    <body class="bg-success" style="--bs-bg-opacity: .85;">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Hola</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#elMenu" aria-controls="elMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="elMenu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Portada</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page.html?n=1">Frases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page.html?n=2">NASA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="container">
+            <div class="row h-100 d-flex justify-content-between align-items-center">
+                <div class="col-md-7 my-auto">
+                    <h1 class="fs-3">Sobre los hámsters</h1>
+                    <h5>Algunos datos curiosos:</h5>
+                    <p>
+                      El nombre hámster proviene de la palabra alemana “Hamstern” que significa “Almacenar” o “Acumular”. Este nombre les viene por su manera de guardar la comida en los sacos bucales.<br> Los hámster no tienen muy buena vista, son muy miopes y confían más en su sentido del olfato, tampoco distinguen el color, es decir son daltónicos.
+                    </p>
+                </div>
+                <div class="col-md-5 my-auto">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Sans" d="M 25 3 C 14.523 3 6 11.523 6 22 C 6 25.771157 7.1255675 29.264865 9.03125 32.21875 C 9.0439655 32.23846 9.0497135 32.26159 9.0625 32.28125 A 1.0043849 1.0043849 0 0 0 9.0625 32.3125 A 1.0043849 1.0043849 0 0 0 9.40625 32.78125 C 10.581284 34.46806 12.010107 35.957729 13.65625 37.1875 L 8.15625 45.4375 A 1.0001 1.0001 0 0 0 9 47 L 41 47 A 1.0001 1.0001 0 1 0 41 45 L 10.875 45 L 15.3125 38.3125 L 16.4375 36.65625 L 25.84375 22.5625 A 1.0001 1.0001 0 0 0 24.78125 21 A 1.0001 1.0001 0 0 0 24.15625 21.4375 L 22.6875 23.625 C 21.67906 23.268298 20.523756 23 19 23 C 17.561247 23 16.21241 23.335115 15.15625 24 A 1.0077822 1.0077822 0 0 0 15.125 24 C 13.988032 23.864863 12.8125 22.4375 12.8125 22.4375 A 1.0001 1.0001 0 0 0 11.78125 22 A 1.0001 1.0001 0 0 0 11.1875 23.5625 C 11.1875 23.5625 12.048185 24.928335 13.59375 25.625 C 13.216118 26.293304 12.992775 27.078535 13 28 C 13.006988 28.891241 13.190699 29.713522 13.5 30.46875 C 12.940363 30.718415 11.971909 31.034119 10.59375 31 C 8.951648 28.390419 8 25.306489 8 22 C 8 12.626 15.626 5 25 5 C 34.374 5 42 12.626 42 22 C 42 25.82055 40.729342 29.345632 38.59375 32.1875 A 1.0019512 1.0019512 0 0 0 38.5625 32.15625 A 1.0030471 1.0030471 0 0 0 38.375 32.0625 A 1.0019512 1.0019512 0 0 0 37.9375 32 C 37.654364 32.02052 37.403349 32.010856 37.15625 32 C 36.909151 31.989144 36.679737 31.971581 36.46875 31.9375 C 36.046776 31.869339 35.683331 31.768394 35.40625 31.65625 C 35.305949 31.615655 35.265287 31.599494 35.1875 31.5625 C 37.265642 29.446666 38.785987 26.395036 39 22.0625 C 39.028 21.4855 38.578 21.002 38 21 C 36.205 20.993 33.9885 20.916 32.4375 21.875 C 32.1195 22.072 31.7465 22.05475 31.4375 21.84375 C 30.4385 21.16375 28.5965 20.48025 28.1875 21.53125 C 27.5685 23.12425 28.46925 25.437 30.03125 26 L 28.9375 26 C 27.9595 26 27.12875 25.742 26.34375 25.375 L 19.65625 35.40625 C 20.95425 35.78925 22.357 36 23.75 36 C 25.341008 36 27.381324 35.738034 29.46875 35.03125 C 29.911959 35.681917 30.774929 36.668029 32.1875 37.375 C 30.00218 38.399402 27.56882 39 25 39 C 22.589 39 20.29775 38.50275 18.21875 37.59375 L 17.09375 39.25 C 19.50275 40.357 22.179 41 25 41 C 35.477 41 44 32.477 44 22 C 44 11.523 35.477 3 25 3 z M 34.03125 23 C 34.58325 23 35.03125 23.448 35.03125 24 C 35.03125 24.552 34.58325 25 34.03125 25 C 33.47925 25 33.03125 24.552 33.03125 24 C 33.03125 23.448 33.47925 23 34.03125 23 z M 14.53125 32.21875 C 14.959988 32.745872 15.46488 33.202297 16.03125 33.625 L 14.75 35.53125 C 13.733303 34.76036 12.820518 33.881133 12 32.90625 C 13.14364 32.753942 13.98263 32.468465 14.53125 32.21875 z M 33.59375 32.9375 C 33.64687 32.974912 33.637624 32.980015 33.71875 33.03125 C 33.945569 33.17534 34.274448 33.345471 34.65625 33.5 C 34.855584 33.580678 35.069965 33.648473 35.3125 33.71875 C 35.557965 33.789027 35.836487 33.857299 36.125 33.90625 C 36.399896 33.95353 36.686889 33.982635 37 34 C 36.220378 34.779622 35.386759 35.507637 34.46875 36.125 A 1.0004882 1.0004882 0 0 0 34.25 36.03125 C 32.634466 35.635545 31.750628 34.850648 31.3125 34.28125 C 32.092763 33.906616 32.865491 33.470544 33.59375 32.9375 z" overflow="visible" font-family="Sans"/>
+                  </svg>
+                </div>
+            </div>
+        </main>
+        <footer class="container fixed-bottom small">
+            <div class="row">
+                <div class="col py-2">
+                    <!--reemplaza los # por las direcciones correspondientes-->
+                    <p class="d-flex justify-content-between align-items-center"><a href="https://github.com/mochuse" class="link-dark">Francisca Chong</a> <a href="#" class="link-dark">AUD5V0010</a></p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>
