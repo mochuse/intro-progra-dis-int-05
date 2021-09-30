@@ -1,2 +1,2 @@
 # intro-progra-dis-int-05
-https://github.com/mochuse/
+https://mochuse.github.io/intro-progra-dis-int-05/
